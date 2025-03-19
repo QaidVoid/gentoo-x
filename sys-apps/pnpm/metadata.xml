@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>qaidvoid@gmail.com</email>
+		<name>Rabindra Dhakal</name>
+	</maintainer>
+	<upstream>
+		<bugs-to>https://github.com/pnpm/pnpm/issues</bugs-to>
+		<changelog>https://github.com/pnpm/pnpm/commits/main</changelog>
+		<remote-id type="github">pnpm/pnpm</remote-id>
+	</upstream>
+</pkgmetadata>
