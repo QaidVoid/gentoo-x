@@ -6,6 +6,7 @@ EAPI=8
 DESCRIPTION="Fast, disk space efficient package manager"
 HOMEPAGE="https://pnpm.io"
 SRC_URI="https://registry.npmjs.org/pnpm/-/pnpm-${PV}.tgz"
+S="${WORKDIR}/package"
 
 LICENSE="MIT"
 SLOT="0"
@@ -13,8 +14,6 @@ KEYWORDS="amd64 x86"
 
 RDEPEND="net-libs/nodejs"
 DEPEND="${RDEPEND}"
-
-S="${WORKDIR}/package"
 
 src_prepare() {
 	default
