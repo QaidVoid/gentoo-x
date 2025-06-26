@@ -3,11 +3,11 @@
 
 EAPI=8
 
-RUST_MIN_VER="1.81"
+RUST_MIN_VER="1.87.0"
 
 inherit cargo desktop
 
-DESCRIPTION="Rio terminal is a hardware-accelerated GPU terminal emulator, focusing to run in desktops and browsers."
+DESCRIPTION="A hardware-accelerated GPU terminal emulator"
 HOMEPAGE="https://raphamorim.io/rio"
 SRC_URI="
 	https://github.com/raphamorim/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz
@@ -50,17 +50,17 @@ src_prepare() {
 }
 
 src_configure() {
-    local myfeatures=(
-        $(usev wayland)
-        $(usev X x11)
-    )
-    cargo_src_configure --no-default-features
+	local myfeatures=(
+		$(usev wayland)
+		$(usev X x11)
+	)
+	cargo_src_configure --no-default-features
 }
 
 src_install() {
 	dobin "$(cargo_target_dir)/${PN}"
 
 	dodoc -r "${DOCS[@]}"
-    newicon -s scalable "misc/logo.svg" "${PN}.svg"
-    domenu "misc/${PN}.desktop"
+	newicon -s scalable "misc/logo.svg" "${PN}.svg"
+	domenu "misc/${PN}.desktop"
 }
