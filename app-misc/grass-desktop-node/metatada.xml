@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pkgmetadata>
+  <maintainer>
+    <email>contact@qaidvoid.dev</email>
+    <name>QaidVoid</name>
+  </maintainer>
+  <longdescription>
+    The Grass Desktop Node is a standalone application that rewards users for bandwidth sharing.
+  </longdescription>
+</pkgmetadata>
