@@ -17,7 +17,9 @@ HOMEPAGE="
 "
 
 EGIT_REPO_URI="https://github.com/mattwparas/helix"
-S="${WORKDIR}"
+EGIT_CLONE_TYPE="shallow"
+EGIT_BRANCH="steel-event-system"
+S="${WORKDIR}/helix-9999"
 
 LICENSE="MPL-2.0"
 # Dependent crate licenses
@@ -43,6 +45,10 @@ pkg_setup() {
 	# FIXME: unable to fetch grammar
 	use grammar || export HELIX_DISABLE_AUTO_GRAMMAR_BUILD=1
 	rust_pkg_setup
+}
+
+src_configure() {
+	cargo_src_configure --frozen
 }
 
 src_install() {
