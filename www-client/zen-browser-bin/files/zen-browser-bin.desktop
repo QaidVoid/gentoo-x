@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Zen Browser (bin)
+Comment=Browse the web
+Exec=/usr/bin/zen-browser-bin %u
+Icon=zen-browser-bin
+Terminal=false
+Type=Application
+MimeType=text/html;text/xml;application/xhtml+xml;application/vnd.mozilla.xul+xml;text/mml;x-scheme-handler/http;x-scheme-handler/https;
+Categories=Network;WebBrowser;
