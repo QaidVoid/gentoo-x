@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=OWASP ZAP
+GenericName=Security Testing Proxy
+Comment=The OWASP Zed Attack Proxy for finding vulnerabilities in web applications
+Icon=zaproxy
+Exec=/usr/bin/zaproxy
+Terminal=false
+Categories=Network;Security;Development;
+Keywords=security;proxy;testing;vulnerability;web;owasp;penetration;
+MimeType=application/x-zap-session;
+StartupNotify=true
+StartupWMClass=org-zaproxy-zap-ZAP
