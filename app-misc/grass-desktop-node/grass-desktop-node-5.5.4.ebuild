@@ -9,7 +9,7 @@ DESCRIPTION="Lightweight standalone app that rewards users for sharing bandwidth
 HOMEPAGE="https://app.getgrass.io/dashboard/store/item/desktop"
 SRC_URI="https://files.getgrass.io/file/grass-extension-upgrades/v${PV}/Grass_${PV}_amd64.deb"
 
-S="${WOKDIR}"
+S="${WORKDIR}"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
