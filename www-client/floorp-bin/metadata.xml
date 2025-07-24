@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="project">
+    <email>contact@qaidvoid.dev</email>
+    <name>Rabindra Dhakal</name>
+  </maintainer>
+  <upstream>
+    <bugs-to>https://github.com/Floorp-Projects/Floorp/issues</bugs-to>
+    <changelog>https://github.com/Floorp-Projects/Floorp/commits/main</changelog>
+    <remote-id type="github">Floorp-Projects/Floorp</remote-id>
+  </upstream>
+</pkgmetadata>
