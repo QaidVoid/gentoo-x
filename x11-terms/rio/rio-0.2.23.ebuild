@@ -3,7 +3,7 @@
 
 EAPI=8
 
-RUST_MIN_VER="1.87.0"
+RUST_MIN_VER="1.88.0"
 
 inherit cargo desktop
 
@@ -21,7 +21,7 @@ LICENSE+="
 	Unicode-3.0 ZLIB
 "
 SLOT="0"
-KEYWORDS="amd64"
+KEYWORDS="~amd64"
 IUSE="+wayland X"
 REQUIRED_USE="|| ( wayland X )"
 
